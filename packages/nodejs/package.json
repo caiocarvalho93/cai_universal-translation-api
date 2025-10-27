@@ -1,0 +1,37 @@
+{
+  "name": "cai-translation-node",
+  "version": "1.0.0",
+  "description": "Node.js SDK for CAI Universal Translation API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "nodejs",
+    "translation",
+    "i18n",
+    "multilingual",
+    "cai",
+    "universal",
+    "sdk"
+  ],
+  "author": "CAI Intelligence Network",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.8"
+  }
+}

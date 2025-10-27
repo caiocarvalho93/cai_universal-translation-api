@@ -1,0 +1,45 @@
+{
+  "name": "cai-universal-translation",
+  "version": "1.0.0",
+  "description": "React components for CAI Universal Translation API",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx"
+  },
+  "keywords": [
+    "react",
+    "translation",
+    "i18n",
+    "multilingual",
+    "cai",
+    "universal"
+  ],
+  "author": "CAI Intelligence Network",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "framer-motion": "^10.16.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "rollup": "^4.9.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  }
+}
